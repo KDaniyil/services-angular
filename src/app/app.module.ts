@@ -11,7 +11,7 @@ import { AccountsService } from './accounts.service';
 @NgModule({
   declarations: [AppComponent, AccountComponent, NewAccountComponent],
   imports: [BrowserModule, FormsModule],
-  providers: [LoggingSevice, AccountsService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
